@@ -27,7 +27,7 @@ var RoCanvas= function () {
 	
 	// toolbar
 	this.toolbar = {
-		colors: ["#FFF","#000","#FF0000","#00FF00","#0000FF","#FFFF00","#00FFFF"],
+		colors: ["#FFF","#000","#ffb2ba","#ffdfb9","#feffb9","#baffc8","#bae1ff"],
 		custom_color: true,
 		sizes: [2, 5, 10, 25],
 		tools: ["path","rectangle","filledrectangle","circle","filledcircle"],
@@ -95,7 +95,7 @@ var RoCanvas= function () {
 		
 		// custom color choice?
 		if(self.toolbar.custom_color) {
-			toolBarHTML += "&nbsp; Custom:&nbsp;<a href=\"#\" class=\"roCanvasColorPicker\" style=\"background:white;\" onclick=\"RoCanvasInstances['"+self.id+"'].setColor(this.style.background);return false;\" id='customColorChoice"+ self.id +"'>&nbsp;</a> #<input type='text' size='6' maxlength='6' onkeyup=\"RoCanvasInstances['"+self.id+"'].customColor(this.value);\">";
+			toolBarHTML += "&nbsp; Add your own color:<a href=\"#\" class=\"roCanvasColorPicker\" style=\"background:white;\" onclick=\"RoCanvasInstances['"+self.id+"'].setColor(this.style.background);return false;\" id='customColorChoice"+ self.id +"'>&nbsp;</a> #<input type='text' size='6' maxlength='6' onkeyup=\"RoCanvasInstances['"+self.id+"'].customColor(this.value);\">";
 		}	
 			
 		// add sizes
@@ -218,7 +218,7 @@ var RoCanvas= function () {
 			            h = Math.abs(e.pageY - this.offsetTop - self.startY);
 			               
 			            // r is the bigger of h and w
-			            r = h>w?h:w;
+			            r = h > w ? h : w;
 			            
 			            // remember to clear it								            
 			            self.clearCircle=[self.startX, self.startY, r];
