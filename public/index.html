@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/rocanvasjs/rocanvas.css?v=1.0">
 </head>
 <body>
-    <p>testing</p>
+    <h1>Doodle Talk? Name TBC</h1>
+
+    <main>
+        <div class="canvas">
+            <canvas id="sampleBoard" width="500" height="500" style="border:1pt solid black"></canvas>
+        </div>
+
+        <div class="messaging-app">
+            <p>The messaging app could go in here</p>
+        </div>
+    </main>
+
+    <script src="/index.js"></script>
+    <script src="/rocanvasjs/rocanvas.js"></script>
+    <script>
+        // Create an instance of the RoCanvas drawing board
+        const r = new RoCanvas;
+        r.RO("sampleBoard");
+    </script>
 </body>
 </html>
