@@ -102,7 +102,7 @@ var RoCanvas= function () {
 		if(self.toolbar.sizes)
 		{
 			toolBarHTML+='<div style="clear:both;">&nbsp;</div>';
-			toolBarHTML+='<div style="float:left;">Sizes:</div>';
+			toolBarHTML+='<div style="float:left;">Brush sizes:</div>';
 			for(s in self.toolbar['sizes'])
 			{
 				toolBarHTML+="<a href=\"#\" class=\"roCanvasColorPicker\" onclick=\"RoCanvasInstances['"+self.id+"'].setSize("+self.toolbar['sizes'][s]
