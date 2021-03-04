@@ -19,5 +19,9 @@
   "homepage": "https://github.com/cgloker/Hello-Cloud-World#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
   }
 }
