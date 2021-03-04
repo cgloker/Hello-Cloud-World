@@ -1,0 +1,25 @@
+.roCanvasColorPicker
+{
+    border:1px solid black;
+    text-decoration:none;
+    display:block;
+    float:left;
+    width:25px;
+    height:25px;
+    margin-left:3px;
+}
+
+input {
+    margin-left: 3px;
+}
+
+input[type=button] {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background: #bae1ff;
+}
