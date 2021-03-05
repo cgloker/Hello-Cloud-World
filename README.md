@@ -10,7 +10,7 @@
   ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 ---
-<p align="center"> .
+<p align="center" 
     <br> 
 </p>
 
@@ -136,9 +136,9 @@ docker run -dp 3000:3000 hello-cloud-world | Runs code             |
 -------------------------------------------| ----------------------|     
     docker ps -a                           |  (lists all commands) |
 -------------------------------------------|-----------------------|
-
-For a full list of commands visit: [docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
-
+```
+For a full list of commands visit: ![docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
+```
 
 ```
 ** Dont forget to turn off/stop the container images when running, deleting, adding or editing files.
@@ -169,10 +169,8 @@ HTML
 Jquery
 ElasticBeanstalk(AWS)
 
-
-
 ## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+IAM ACCOUNTS - EBS [AWS]
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Express](https://expressjs.com/en/starter/hello-world.html) - Web/Server Framework
