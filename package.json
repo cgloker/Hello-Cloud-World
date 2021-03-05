@@ -1,3 +1,4 @@
+
 {
   "name": "hello-cloud-world",
   "version": "1.0.0",
@@ -19,7 +20,10 @@
   "homepage": "https://github.com/cgloker/Hello-Cloud-World#readme",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
     "socket.io": "^3.1.2"
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.15.4"
   }
 }
